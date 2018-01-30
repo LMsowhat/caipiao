@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="364" height="538"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xmp-ID-ERL">
+                    <rect key="frame" x="20" y="120" width="29.5" height="29.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Xmp-ID-ERL" secondAttribute="height" multiplier="1:1" id="2hc-vh-tCc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.84705882352941175" green="0.047058823529411764" blue="0.094117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="16"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                            <color key="value" red="0.84705882352941175" green="0.047058823529411764" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0TT-UJ-Tc8">
+                    <rect key="frame" x="69.5" y="120" width="29" height="29.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.84705882352941175" green="0.047058823529411764" blue="0.094117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="16"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                            <color key="value" red="0.84705882349999995" green="0.047058823530000002" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xjK-do-SPP">
+                    <rect key="frame" x="118.5" y="120" width="29" height="29.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.84705882352941175" green="0.047058823529411764" blue="0.094117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="16"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                            <color key="value" red="0.84705882349999995" green="0.047058823530000002" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="19" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Bf-2o-ypJ">
+                    <rect key="frame" x="167.5" y="120" width="29.5" height="29.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.84705882352941175" green="0.047058823529411764" blue="0.094117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="16"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                            <color key="value" red="0.84705882349999995" green="0.047058823530000002" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="26" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VA8-xP-ELb">
+                    <rect key="frame" x="217" y="120" width="29" height="29.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.84705882352941175" green="0.047058823529411764" blue="0.094117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="16"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                            <color key="value" red="0.84705882349999995" green="0.047058823530000002" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MRy-TB-gnT">
+                    <rect key="frame" x="266" y="120" width="29" height="29.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.84705882352941175" green="0.047058823529411764" blue="0.094117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="16"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                            <color key="value" red="0.84705882349999995" green="0.047058823530000002" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kqk-fl-eLz">
+                    <rect key="frame" x="315" y="120" width="29" height="29.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="16"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                            <color key="value" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jVN-Fl-Jg4">
+                    <rect key="frame" x="20" y="256.5" width="324" height="45"/>
+                    <color key="backgroundColor" red="0.84705882352941175" green="0.047058823529411764" blue="0.094117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="a1J-5x-l70"/>
+                    </constraints>
+                    <state key="normal" title="随机">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="VA8-xP-ELb" firstAttribute="height" secondItem="Xmp-ID-ERL" secondAttribute="height" id="0z4-WS-n1H"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="jVN-Fl-Jg4" secondAttribute="trailing" constant="20" id="1ON-gG-yAW"/>
+                <constraint firstItem="VA8-xP-ELb" firstAttribute="width" secondItem="Xmp-ID-ERL" secondAttribute="width" id="2Yd-TT-oZh"/>
+                <constraint firstItem="4Bf-2o-ypJ" firstAttribute="height" secondItem="Xmp-ID-ERL" secondAttribute="height" id="354-dV-w3A"/>
+                <constraint firstItem="Kqk-fl-eLz" firstAttribute="height" secondItem="Xmp-ID-ERL" secondAttribute="height" id="5b2-gw-HO6"/>
+                <constraint firstItem="MRy-TB-gnT" firstAttribute="leading" secondItem="VA8-xP-ELb" secondAttribute="trailing" constant="20" id="6Pj-O6-HQ1"/>
+                <constraint firstItem="4Bf-2o-ypJ" firstAttribute="width" secondItem="Xmp-ID-ERL" secondAttribute="width" id="AUd-Ie-7fp"/>
+                <constraint firstItem="4Bf-2o-ypJ" firstAttribute="leading" secondItem="xjK-do-SPP" secondAttribute="trailing" constant="20" id="EUi-cF-i7k"/>
+                <constraint firstItem="0TT-UJ-Tc8" firstAttribute="width" secondItem="Xmp-ID-ERL" secondAttribute="width" id="HlH-AA-ZT2"/>
+                <constraint firstItem="jVN-Fl-Jg4" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="IQ8-Rz-te8"/>
+                <constraint firstItem="Kqk-fl-eLz" firstAttribute="width" secondItem="Xmp-ID-ERL" secondAttribute="width" id="MXb-0b-CtA"/>
+                <constraint firstItem="Kqk-fl-eLz" firstAttribute="leading" secondItem="MRy-TB-gnT" secondAttribute="trailing" constant="20" id="PH7-AZ-FZb"/>
+                <constraint firstItem="xjK-do-SPP" firstAttribute="leading" secondItem="0TT-UJ-Tc8" secondAttribute="trailing" constant="20" id="QXf-fc-1Eh"/>
+                <constraint firstItem="MRy-TB-gnT" firstAttribute="height" secondItem="Xmp-ID-ERL" secondAttribute="height" id="T3N-CF-vqR"/>
+                <constraint firstItem="Xmp-ID-ERL" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="100" id="T3S-cL-qdm"/>
+                <constraint firstItem="MRy-TB-gnT" firstAttribute="width" secondItem="Xmp-ID-ERL" secondAttribute="width" id="Ure-BE-1qc"/>
+                <constraint firstItem="4Bf-2o-ypJ" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="100" id="VUx-3n-hBE"/>
+                <constraint firstItem="xjK-do-SPP" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="100" id="WNV-R7-qQd"/>
+                <constraint firstItem="VA8-xP-ELb" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="100" id="WTi-64-w5Q"/>
+                <constraint firstItem="0TT-UJ-Tc8" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="100" id="YWf-Fu-yOz"/>
+                <constraint firstItem="xjK-do-SPP" firstAttribute="width" secondItem="Xmp-ID-ERL" secondAttribute="width" id="YsB-cg-zwg"/>
+                <constraint firstItem="jVN-Fl-Jg4" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="dTz-C1-vYx"/>
+                <constraint firstItem="jVN-Fl-Jg4" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="exi-Zj-JrO"/>
+                <constraint firstItem="Xmp-ID-ERL" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="f5A-Go-2a3"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Kqk-fl-eLz" secondAttribute="trailing" constant="20" id="jHU-MY-Gfr"/>
+                <constraint firstItem="Kqk-fl-eLz" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="100" id="kKM-2i-yCK"/>
+                <constraint firstItem="0TT-UJ-Tc8" firstAttribute="leading" secondItem="Xmp-ID-ERL" secondAttribute="trailing" constant="20" id="lMH-dp-aLn"/>
+                <constraint firstItem="MRy-TB-gnT" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="100" id="m0k-4f-oAT"/>
+                <constraint firstItem="xjK-do-SPP" firstAttribute="height" secondItem="Xmp-ID-ERL" secondAttribute="height" id="pMq-RF-mws"/>
+                <constraint firstItem="0TT-UJ-Tc8" firstAttribute="height" secondItem="Xmp-ID-ERL" secondAttribute="height" id="pqH-4A-H2x"/>
+                <constraint firstItem="VA8-xP-ELb" firstAttribute="leading" secondItem="4Bf-2o-ypJ" secondAttribute="trailing" constant="20" id="qr3-fm-win"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="118" y="198"/>
+        </view>
+    </objects>
+</document>

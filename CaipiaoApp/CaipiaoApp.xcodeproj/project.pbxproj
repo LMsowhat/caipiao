@@ -13,6 +13,35 @@
 		8BE360AC200C4B6300ACE581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE360AA200C4B6300ACE581 /* Main.storyboard */; };
 		8BE360AE200C4B6300ACE581 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BE360AD200C4B6300ACE581 /* Assets.xcassets */; };
 		8BE360B4200C4B6300ACE581 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE360B3200C4B6300ACE581 /* main.m */; };
+		8BE963F620200A88005DB4DC /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE963F520200A88005DB4DC /* MainTabBarViewController.m */; };
+		8BE963FA20200AA6005DB4DC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE963F820200AA6005DB4DC /* HomeViewController.m */; };
+		8BE963FB20200AA6005DB4DC /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BE963F920200AA6005DB4DC /* HomeViewController.xib */; };
+		8BE963FF20200AD5005DB4DC /* PastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE963FD20200AD5005DB4DC /* PastViewController.m */; };
+		8BE9640020200AD5005DB4DC /* PastViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BE963FE20200AD5005DB4DC /* PastViewController.xib */; };
+		8BE9640420200AE1005DB4DC /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE9640220200AE1005DB4DC /* SettingViewController.m */; };
+		8BE9640520200AE1005DB4DC /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BE9640320200AE1005DB4DC /* SettingViewController.xib */; };
+		8BE96419202020E0005DB4DC /* tabbar_setting_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE96407202020E0005DB4DC /* tabbar_setting_selected.png */; };
+		8BE9641A202020E0005DB4DC /* tabbar_home_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE96408202020E0005DB4DC /* tabbar_home_selected@2x.png */; };
+		8BE9641B202020E0005DB4DC /* tabbar_courseList@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE96409202020E0005DB4DC /* tabbar_courseList@3x.png */; };
+		8BE9641C202020E0005DB4DC /* tabbar_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE9640A202020E0005DB4DC /* tabbar_home.png */; };
+		8BE9641D202020E0005DB4DC /* tabbar_setting@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE9640B202020E0005DB4DC /* tabbar_setting@3x.png */; };
+		8BE9641E202020E0005DB4DC /* tabbar_setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE9640C202020E0005DB4DC /* tabbar_setting.png */; };
+		8BE9641F202020E0005DB4DC /* tabbar_setting_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE9640D202020E0005DB4DC /* tabbar_setting_selected@2x.png */; };
+		8BE96420202020E0005DB4DC /* tabbar_setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE9640E202020E0005DB4DC /* tabbar_setting@2x.png */; };
+		8BE96421202020E0005DB4DC /* tabbar_courseList_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE9640F202020E0005DB4DC /* tabbar_courseList_selected.png */; };
+		8BE96422202020E0005DB4DC /* tabbar_home_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE96410202020E0005DB4DC /* tabbar_home_selected.png */; };
+		8BE96423202020E0005DB4DC /* tabbar_courseList@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE96411202020E0005DB4DC /* tabbar_courseList@2x.png */; };
+		8BE96424202020E0005DB4DC /* tabbar_courseList_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE96412202020E0005DB4DC /* tabbar_courseList_selected@3x.png */; };
+		8BE96425202020E0005DB4DC /* tabbar_courseList.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE96413202020E0005DB4DC /* tabbar_courseList.png */; };
+		8BE96426202020E0005DB4DC /* tabbar_home_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE96414202020E0005DB4DC /* tabbar_home_selected@3x.png */; };
+		8BE96427202020E0005DB4DC /* tabbar_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE96415202020E0005DB4DC /* tabbar_home@2x.png */; };
+		8BE96428202020E0005DB4DC /* tabbar_setting_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE96416202020E0005DB4DC /* tabbar_setting_selected@3x.png */; };
+		8BE96429202020E0005DB4DC /* tabbar_home@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE96417202020E0005DB4DC /* tabbar_home@3x.png */; };
+		8BE9642A202020E0005DB4DC /* tabbar_courseList_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE96418202020E0005DB4DC /* tabbar_courseList_selected@2x.png */; };
+		8BE9642D2020291D005DB4DC /* RandomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE9642C2020291D005DB4DC /* RandomView.m */; };
+		8BE964312020293C005DB4DC /* RandomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BE964302020293C005DB4DC /* RandomView.xib */; };
+		8BE9643720206176005DB4DC /* CALayer+BorderColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE9643620206176005DB4DC /* CALayer+BorderColors.m */; };
+		8BE9643920206E5F005DB4DC /* pastnumber.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BE9643820206E5F005DB4DC /* pastnumber.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +56,41 @@
 		8BE360B2200C4B6300ACE581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BE360B3200C4B6300ACE581 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BE360BA200C721500ACE581 /* CaipiaoApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CaipiaoApp.entitlements; sourceTree = "<group>"; };
+		8BE963F420200A88005DB4DC /* MainTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		8BE963F520200A88005DB4DC /* MainTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		8BE963F720200AA6005DB4DC /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		8BE963F820200AA6005DB4DC /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		8BE963F920200AA6005DB4DC /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		8BE963FC20200AD5005DB4DC /* PastViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PastViewController.h; sourceTree = "<group>"; };
+		8BE963FD20200AD5005DB4DC /* PastViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PastViewController.m; sourceTree = "<group>"; };
+		8BE963FE20200AD5005DB4DC /* PastViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PastViewController.xib; sourceTree = "<group>"; };
+		8BE9640120200AE1005DB4DC /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		8BE9640220200AE1005DB4DC /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		8BE9640320200AE1005DB4DC /* SettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		8BE96407202020E0005DB4DC /* tabbar_setting_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_setting_selected.png; sourceTree = "<group>"; };
+		8BE96408202020E0005DB4DC /* tabbar_home_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_home_selected@2x.png"; sourceTree = "<group>"; };
+		8BE96409202020E0005DB4DC /* tabbar_courseList@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_courseList@3x.png"; sourceTree = "<group>"; };
+		8BE9640A202020E0005DB4DC /* tabbar_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_home.png; sourceTree = "<group>"; };
+		8BE9640B202020E0005DB4DC /* tabbar_setting@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_setting@3x.png"; sourceTree = "<group>"; };
+		8BE9640C202020E0005DB4DC /* tabbar_setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_setting.png; sourceTree = "<group>"; };
+		8BE9640D202020E0005DB4DC /* tabbar_setting_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_setting_selected@2x.png"; sourceTree = "<group>"; };
+		8BE9640E202020E0005DB4DC /* tabbar_setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_setting@2x.png"; sourceTree = "<group>"; };
+		8BE9640F202020E0005DB4DC /* tabbar_courseList_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_courseList_selected.png; sourceTree = "<group>"; };
+		8BE96410202020E0005DB4DC /* tabbar_home_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_home_selected.png; sourceTree = "<group>"; };
+		8BE96411202020E0005DB4DC /* tabbar_courseList@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_courseList@2x.png"; sourceTree = "<group>"; };
+		8BE96412202020E0005DB4DC /* tabbar_courseList_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_courseList_selected@3x.png"; sourceTree = "<group>"; };
+		8BE96413202020E0005DB4DC /* tabbar_courseList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_courseList.png; sourceTree = "<group>"; };
+		8BE96414202020E0005DB4DC /* tabbar_home_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_home_selected@3x.png"; sourceTree = "<group>"; };
+		8BE96415202020E0005DB4DC /* tabbar_home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_home@2x.png"; sourceTree = "<group>"; };
+		8BE96416202020E0005DB4DC /* tabbar_setting_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_setting_selected@3x.png"; sourceTree = "<group>"; };
+		8BE96417202020E0005DB4DC /* tabbar_home@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_home@3x.png"; sourceTree = "<group>"; };
+		8BE96418202020E0005DB4DC /* tabbar_courseList_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_courseList_selected@2x.png"; sourceTree = "<group>"; };
+		8BE9642B2020291D005DB4DC /* RandomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomView.h; sourceTree = "<group>"; };
+		8BE9642C2020291D005DB4DC /* RandomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomView.m; sourceTree = "<group>"; };
+		8BE964302020293C005DB4DC /* RandomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RandomView.xib; sourceTree = "<group>"; };
+		8BE9643520206176005DB4DC /* CALayer+BorderColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+BorderColors.h"; sourceTree = "<group>"; };
+		8BE9643620206176005DB4DC /* CALayer+BorderColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+BorderColors.m"; sourceTree = "<group>"; };
+		8BE9643820206E5F005DB4DC /* pastnumber.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = pastnumber.plist; sourceTree = "<group>"; };
 		C2FF16231F61A30BC0158180 /* libPods-CaipiaoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CaipiaoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E36D3C1B1A221FBC92A4E5F0 /* Pods-CaipiaoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaipiaoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaipiaoApp/Pods-CaipiaoApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +145,7 @@
 		8BE360A3200C4B6300ACE581 /* CaipiaoApp */ = {
 			isa = PBXGroup;
 			children = (
+				8BE963F320200A5A005DB4DC /* New Group */,
 				8BE360BA200C721500ACE581 /* CaipiaoApp.entitlements */,
 				8BE360A4200C4B6300ACE581 /* AppDelegate.h */,
 				8BE360A5200C4B6300ACE581 /* AppDelegate.m */,
@@ -92,6 +157,56 @@
 				8BE360B3200C4B6300ACE581 /* main.m */,
 			);
 			path = CaipiaoApp;
+			sourceTree = "<group>";
+		};
+		8BE963F320200A5A005DB4DC /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				8BE9643520206176005DB4DC /* CALayer+BorderColors.h */,
+				8BE9643620206176005DB4DC /* CALayer+BorderColors.m */,
+				8BE9643820206E5F005DB4DC /* pastnumber.plist */,
+				8BE96406202020C4005DB4DC /* images */,
+				8BE963F420200A88005DB4DC /* MainTabBarViewController.h */,
+				8BE963F520200A88005DB4DC /* MainTabBarViewController.m */,
+				8BE9642B2020291D005DB4DC /* RandomView.h */,
+				8BE9642C2020291D005DB4DC /* RandomView.m */,
+				8BE964302020293C005DB4DC /* RandomView.xib */,
+				8BE963F720200AA6005DB4DC /* HomeViewController.h */,
+				8BE963F820200AA6005DB4DC /* HomeViewController.m */,
+				8BE963F920200AA6005DB4DC /* HomeViewController.xib */,
+				8BE963FC20200AD5005DB4DC /* PastViewController.h */,
+				8BE963FD20200AD5005DB4DC /* PastViewController.m */,
+				8BE963FE20200AD5005DB4DC /* PastViewController.xib */,
+				8BE9640120200AE1005DB4DC /* SettingViewController.h */,
+				8BE9640220200AE1005DB4DC /* SettingViewController.m */,
+				8BE9640320200AE1005DB4DC /* SettingViewController.xib */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		8BE96406202020C4005DB4DC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8BE9640F202020E0005DB4DC /* tabbar_courseList_selected.png */,
+				8BE96418202020E0005DB4DC /* tabbar_courseList_selected@2x.png */,
+				8BE96412202020E0005DB4DC /* tabbar_courseList_selected@3x.png */,
+				8BE96413202020E0005DB4DC /* tabbar_courseList.png */,
+				8BE96411202020E0005DB4DC /* tabbar_courseList@2x.png */,
+				8BE96409202020E0005DB4DC /* tabbar_courseList@3x.png */,
+				8BE96410202020E0005DB4DC /* tabbar_home_selected.png */,
+				8BE96408202020E0005DB4DC /* tabbar_home_selected@2x.png */,
+				8BE96414202020E0005DB4DC /* tabbar_home_selected@3x.png */,
+				8BE9640A202020E0005DB4DC /* tabbar_home.png */,
+				8BE96415202020E0005DB4DC /* tabbar_home@2x.png */,
+				8BE96417202020E0005DB4DC /* tabbar_home@3x.png */,
+				8BE96407202020E0005DB4DC /* tabbar_setting_selected.png */,
+				8BE9640D202020E0005DB4DC /* tabbar_setting_selected@2x.png */,
+				8BE96416202020E0005DB4DC /* tabbar_setting_selected@3x.png */,
+				8BE9640C202020E0005DB4DC /* tabbar_setting.png */,
+				8BE9640E202020E0005DB4DC /* tabbar_setting@2x.png */,
+				8BE9640B202020E0005DB4DC /* tabbar_setting@3x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,8 +275,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BE96429202020E0005DB4DC /* tabbar_home@3x.png in Resources */,
+				8BE9641F202020E0005DB4DC /* tabbar_setting_selected@2x.png in Resources */,
+				8BE96428202020E0005DB4DC /* tabbar_setting_selected@3x.png in Resources */,
+				8BE96421202020E0005DB4DC /* tabbar_courseList_selected.png in Resources */,
 				8BE360AE200C4B6300ACE581 /* Assets.xcassets in Resources */,
+				8BE96424202020E0005DB4DC /* tabbar_courseList_selected@3x.png in Resources */,
+				8BE96426202020E0005DB4DC /* tabbar_home_selected@3x.png in Resources */,
+				8BE96419202020E0005DB4DC /* tabbar_setting_selected.png in Resources */,
+				8BE9640520200AE1005DB4DC /* SettingViewController.xib in Resources */,
+				8BE9641A202020E0005DB4DC /* tabbar_home_selected@2x.png in Resources */,
+				8BE96420202020E0005DB4DC /* tabbar_setting@2x.png in Resources */,
+				8BE964312020293C005DB4DC /* RandomView.xib in Resources */,
 				8BE360AC200C4B6300ACE581 /* Main.storyboard in Resources */,
+				8BE9643920206E5F005DB4DC /* pastnumber.plist in Resources */,
+				8BE9640020200AD5005DB4DC /* PastViewController.xib in Resources */,
+				8BE96422202020E0005DB4DC /* tabbar_home_selected.png in Resources */,
+				8BE9641E202020E0005DB4DC /* tabbar_setting.png in Resources */,
+				8BE96425202020E0005DB4DC /* tabbar_courseList.png in Resources */,
+				8BE9641B202020E0005DB4DC /* tabbar_courseList@3x.png in Resources */,
+				8BE9641C202020E0005DB4DC /* tabbar_home.png in Resources */,
+				8BE96423202020E0005DB4DC /* tabbar_courseList@2x.png in Resources */,
+				8BE9641D202020E0005DB4DC /* tabbar_setting@3x.png in Resources */,
+				8BE963FB20200AA6005DB4DC /* HomeViewController.xib in Resources */,
+				8BE96427202020E0005DB4DC /* tabbar_home@2x.png in Resources */,
+				8BE9642A202020E0005DB4DC /* tabbar_courseList_selected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +359,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BE360A9200C4B6300ACE581 /* ViewController.m in Sources */,
+				8BE963F620200A88005DB4DC /* MainTabBarViewController.m in Sources */,
+				8BE963FF20200AD5005DB4DC /* PastViewController.m in Sources */,
+				8BE9642D2020291D005DB4DC /* RandomView.m in Sources */,
+				8BE9640420200AE1005DB4DC /* SettingViewController.m in Sources */,
 				8BE360B4200C4B6300ACE581 /* main.m in Sources */,
+				8BE963FA20200AA6005DB4DC /* HomeViewController.m in Sources */,
+				8BE9643720206176005DB4DC /* CALayer+BorderColors.m in Sources */,
 				8BE360A6200C4B6300ACE581 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

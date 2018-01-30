@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "AFNetworking.h"
-
+#import "MainTabBarViewController.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIWebView *mainWebView;
@@ -39,17 +39,24 @@
             
             [self webViewLoad:responseObject[@"Url"]];
         }else{
-            [self webViewLoad:nil];
+            [self showAnotherView];
+//            [self webViewLoad:nil];
         }
         NSLog(@"%@",responseObject);
         
-        
-        
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        
+        [self showAnotherView];
         NSLog(@"%@",error);
     }];
 }
+
+- (void)showAnotherView{
+    
+    UIWindow *window = [[UIApplication sharedApplication] keyWindow];
+    
+    window.rootViewController = [MainTabBarViewController new];
+}
+
     
 - (void)webViewLoad:(NSString *)h5{
     
