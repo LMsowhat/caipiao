@@ -7,8 +7,10 @@
 //
 
 #import "PastViewController.h"
+#import "PastTableViewCell.h"
 
-@interface PastViewController ()
+
+@interface PastViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UITableView *mainTableView;
 
@@ -28,6 +30,9 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.mainTableView.delegate = self;
+    self.mainTableView.dataSource = self;
+    
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -40,6 +45,38 @@
     return _dataSource;
 }
 
+#pragma mark TableViewDataSource
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    
+    return self.dataSource.count;
+}
+
+
+#pragma mark TableViewDelegate
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    static NSString *CellIdentifier =@"TableViewCellIdentifier";
+    
+    PastTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
+    if (!cell) {
+        cell = [[[NSBundle mainBundle] loadNibNamed:@"PastTableViewCell" owner:nil options:nil] lastObject];
+    }
+    cell.model = self.dataSource[indexPath.row];
+    
+    return cell;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 100;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
 
 
 - (void)didReceiveMemoryWarning {

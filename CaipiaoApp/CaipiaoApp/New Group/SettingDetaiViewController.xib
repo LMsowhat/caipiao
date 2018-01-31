@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SettingDetaiViewController">
+            <connections>
+                <outlet property="cleanView" destination="eUJ-2C-xw1" id="qCZ-xp-3BR"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Gm-OJ-3m3">
+                    <rect key="frame" x="0.0" y="100" width="375" height="57"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="允许4G访问网络" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYU-1D-Nfi">
+                            <rect key="frame" x="20" y="17" width="142" height="23"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vg4-YL-nh6">
+                            <rect key="frame" x="306" y="13" width="51" height="31"/>
+                        </switch>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="57" id="4ry-un-jig"/>
+                        <constraint firstItem="fYU-1D-Nfi" firstAttribute="centerY" secondItem="6Gm-OJ-3m3" secondAttribute="centerY" id="63i-gq-P60"/>
+                        <constraint firstAttribute="trailing" secondItem="Vg4-YL-nh6" secondAttribute="trailing" constant="20" id="QAu-IQ-ewB"/>
+                        <constraint firstItem="Vg4-YL-nh6" firstAttribute="centerY" secondItem="fYU-1D-Nfi" secondAttribute="centerY" id="VCs-Zd-wcy"/>
+                        <constraint firstItem="fYU-1D-Nfi" firstAttribute="leading" secondItem="6Gm-OJ-3m3" secondAttribute="leading" constant="20" id="hJx-Xr-hXG"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.setBorderColorWithUIColor">
+                            <color key="value" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eUJ-2C-xw1">
+                    <rect key="frame" x="0.0" y="177" width="375" height="57"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="清除缓存" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6HL-T3-eFr">
+                            <rect key="frame" x="20" y="16.5" width="82" height="24"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="6HL-T3-eFr" firstAttribute="leading" secondItem="eUJ-2C-xw1" secondAttribute="leading" constant="20" id="KkO-mt-nB2"/>
+                        <constraint firstAttribute="height" constant="57" id="LLP-jI-sfR"/>
+                        <constraint firstItem="6HL-T3-eFr" firstAttribute="centerY" secondItem="eUJ-2C-xw1" secondAttribute="centerY" id="liz-wn-TFv"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.setBorderColorWithUIColor">
+                            <color key="value" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="6Gm-OJ-3m3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="0aE-2i-rc3"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="6Gm-OJ-3m3" secondAttribute="trailing" id="0jJ-YS-95F"/>
+                <constraint firstItem="eUJ-2C-xw1" firstAttribute="top" secondItem="6Gm-OJ-3m3" secondAttribute="bottom" constant="20" id="bLu-PZ-coJ"/>
+                <constraint firstItem="eUJ-2C-xw1" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="ju4-RX-nBk"/>
+                <constraint firstItem="6Gm-OJ-3m3" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="mUz-FS-len"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="eUJ-2C-xw1" secondAttribute="trailing" id="wd3-vl-zrG"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+</document>

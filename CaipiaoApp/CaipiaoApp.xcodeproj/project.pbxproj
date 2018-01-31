@@ -8,6 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		0496D31011D64C332D07FBD9 /* libPods-CaipiaoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FF16231F61A30BC0158180 /* libPods-CaipiaoApp.a */; };
+		8B86F2D720219A8C006AB7E2 /* setting_myCollection@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2C520219A8A006AB7E2 /* setting_myCollection@2x.png */; };
+		8B86F2D820219A8C006AB7E2 /* setting_myCollection.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2C620219A8B006AB7E2 /* setting_myCollection.png */; };
+		8B86F2D920219A8C006AB7E2 /* setting_wallet.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2C720219A8B006AB7E2 /* setting_wallet.png */; };
+		8B86F2DA20219A8C006AB7E2 /* setting_myMessage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2C820219A8B006AB7E2 /* setting_myMessage@2x.png */; };
+		8B86F2DB20219A8C006AB7E2 /* setting_myCourse.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2C920219A8B006AB7E2 /* setting_myCourse.png */; };
+		8B86F2DC20219A8C006AB7E2 /* setting_myOrder.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2CA20219A8B006AB7E2 /* setting_myOrder.png */; };
+		8B86F2DD20219A8C006AB7E2 /* setting_wallet@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2CB20219A8B006AB7E2 /* setting_wallet@3x.png */; };
+		8B86F2DE20219A8C006AB7E2 /* setting_wallet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2CC20219A8B006AB7E2 /* setting_wallet@2x.png */; };
+		8B86F2DF20219A8C006AB7E2 /* setting_myOrder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2CD20219A8B006AB7E2 /* setting_myOrder@3x.png */; };
+		8B86F2E020219A8C006AB7E2 /* setting_myMessage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2CE20219A8B006AB7E2 /* setting_myMessage.png */; };
+		8B86F2E120219A8C006AB7E2 /* setting_mySetting.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2CF20219A8B006AB7E2 /* setting_mySetting.png */; };
+		8B86F2E220219A8C006AB7E2 /* setting_mySetting@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2D020219A8B006AB7E2 /* setting_mySetting@3x.png */; };
+		8B86F2E320219A8C006AB7E2 /* setting_myOrder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2D120219A8B006AB7E2 /* setting_myOrder@2x.png */; };
+		8B86F2E420219A8C006AB7E2 /* setting_myMessage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2D220219A8B006AB7E2 /* setting_myMessage@3x.png */; };
+		8B86F2E520219A8C006AB7E2 /* setting_myCourse@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2D320219A8C006AB7E2 /* setting_myCourse@3x.png */; };
+		8B86F2E620219A8C006AB7E2 /* setting_myCourse@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2D420219A8C006AB7E2 /* setting_myCourse@2x.png */; };
+		8B86F2E720219A8C006AB7E2 /* setting_mySetting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2D520219A8C006AB7E2 /* setting_mySetting@2x.png */; };
+		8B86F2E820219A8C006AB7E2 /* setting_myCollection@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2D620219A8C006AB7E2 /* setting_myCollection@3x.png */; };
+		8B86F2EC20219C0B006AB7E2 /* SettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B86F2EA20219C0B006AB7E2 /* SettingTableViewCell.m */; };
+		8B86F2ED20219C0B006AB7E2 /* SettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2EB20219C0B006AB7E2 /* SettingTableViewCell.xib */; };
+		8B86F2F120219C45006AB7E2 /* rightArrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2EE20219C45006AB7E2 /* rightArrow@3x.png */; };
+		8B86F2F220219C45006AB7E2 /* rightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2EF20219C45006AB7E2 /* rightArrow.png */; };
+		8B86F2F320219C45006AB7E2 /* rightArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2F020219C45006AB7E2 /* rightArrow@2x.png */; };
+		8B86F2F72021A1DA006AB7E2 /* SettingDetaiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B86F2F52021A1DA006AB7E2 /* SettingDetaiViewController.m */; };
+		8B86F2F82021A1DA006AB7E2 /* SettingDetaiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2F62021A1DA006AB7E2 /* SettingDetaiViewController.xib */; };
+		8B86F2FC2021A738006AB7E2 /* MyLoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B86F2FA2021A738006AB7E2 /* MyLoveViewController.m */; };
+		8B86F2FD2021A738006AB7E2 /* MyLoveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B86F2FB2021A738006AB7E2 /* MyLoveViewController.xib */; };
 		8BE360A6200C4B6300ACE581 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE360A5200C4B6300ACE581 /* AppDelegate.m */; };
 		8BE360A9200C4B6300ACE581 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE360A8200C4B6300ACE581 /* ViewController.m */; };
 		8BE360AC200C4B6300ACE581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE360AA200C4B6300ACE581 /* Main.storyboard */; };
@@ -42,10 +69,42 @@
 		8BE964312020293C005DB4DC /* RandomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BE964302020293C005DB4DC /* RandomView.xib */; };
 		8BE9643720206176005DB4DC /* CALayer+BorderColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE9643620206176005DB4DC /* CALayer+BorderColors.m */; };
 		8BE9643920206E5F005DB4DC /* pastnumber.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BE9643820206E5F005DB4DC /* pastnumber.plist */; };
+		8BE9643E202078BB005DB4DC /* PastTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE9643C202078BB005DB4DC /* PastTableViewCell.m */; };
+		8BE9643F202078BB005DB4DC /* PastTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BE9643D202078BB005DB4DC /* PastTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3E1E98BC839459E3A124B43D /* Pods-CaipiaoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaipiaoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaipiaoApp/Pods-CaipiaoApp.release.xcconfig"; sourceTree = "<group>"; };
+		8B86F2C520219A8A006AB7E2 /* setting_myCollection@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_myCollection@2x.png"; sourceTree = "<group>"; };
+		8B86F2C620219A8B006AB7E2 /* setting_myCollection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting_myCollection.png; sourceTree = "<group>"; };
+		8B86F2C720219A8B006AB7E2 /* setting_wallet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting_wallet.png; sourceTree = "<group>"; };
+		8B86F2C820219A8B006AB7E2 /* setting_myMessage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_myMessage@2x.png"; sourceTree = "<group>"; };
+		8B86F2C920219A8B006AB7E2 /* setting_myCourse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting_myCourse.png; sourceTree = "<group>"; };
+		8B86F2CA20219A8B006AB7E2 /* setting_myOrder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting_myOrder.png; sourceTree = "<group>"; };
+		8B86F2CB20219A8B006AB7E2 /* setting_wallet@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_wallet@3x.png"; sourceTree = "<group>"; };
+		8B86F2CC20219A8B006AB7E2 /* setting_wallet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_wallet@2x.png"; sourceTree = "<group>"; };
+		8B86F2CD20219A8B006AB7E2 /* setting_myOrder@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_myOrder@3x.png"; sourceTree = "<group>"; };
+		8B86F2CE20219A8B006AB7E2 /* setting_myMessage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting_myMessage.png; sourceTree = "<group>"; };
+		8B86F2CF20219A8B006AB7E2 /* setting_mySetting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting_mySetting.png; sourceTree = "<group>"; };
+		8B86F2D020219A8B006AB7E2 /* setting_mySetting@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_mySetting@3x.png"; sourceTree = "<group>"; };
+		8B86F2D120219A8B006AB7E2 /* setting_myOrder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_myOrder@2x.png"; sourceTree = "<group>"; };
+		8B86F2D220219A8B006AB7E2 /* setting_myMessage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_myMessage@3x.png"; sourceTree = "<group>"; };
+		8B86F2D320219A8C006AB7E2 /* setting_myCourse@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_myCourse@3x.png"; sourceTree = "<group>"; };
+		8B86F2D420219A8C006AB7E2 /* setting_myCourse@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_myCourse@2x.png"; sourceTree = "<group>"; };
+		8B86F2D520219A8C006AB7E2 /* setting_mySetting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_mySetting@2x.png"; sourceTree = "<group>"; };
+		8B86F2D620219A8C006AB7E2 /* setting_myCollection@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_myCollection@3x.png"; sourceTree = "<group>"; };
+		8B86F2E920219C0B006AB7E2 /* SettingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingTableViewCell.h; sourceTree = "<group>"; };
+		8B86F2EA20219C0B006AB7E2 /* SettingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewCell.m; sourceTree = "<group>"; };
+		8B86F2EB20219C0B006AB7E2 /* SettingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingTableViewCell.xib; sourceTree = "<group>"; };
+		8B86F2EE20219C45006AB7E2 /* rightArrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightArrow@3x.png"; sourceTree = "<group>"; };
+		8B86F2EF20219C45006AB7E2 /* rightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightArrow.png; sourceTree = "<group>"; };
+		8B86F2F020219C45006AB7E2 /* rightArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightArrow@2x.png"; sourceTree = "<group>"; };
+		8B86F2F42021A1DA006AB7E2 /* SettingDetaiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingDetaiViewController.h; sourceTree = "<group>"; };
+		8B86F2F52021A1DA006AB7E2 /* SettingDetaiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingDetaiViewController.m; sourceTree = "<group>"; };
+		8B86F2F62021A1DA006AB7E2 /* SettingDetaiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingDetaiViewController.xib; sourceTree = "<group>"; };
+		8B86F2F92021A738006AB7E2 /* MyLoveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLoveViewController.h; sourceTree = "<group>"; };
+		8B86F2FA2021A738006AB7E2 /* MyLoveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLoveViewController.m; sourceTree = "<group>"; };
+		8B86F2FB2021A738006AB7E2 /* MyLoveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyLoveViewController.xib; sourceTree = "<group>"; };
 		8BE360A1200C4B6300ACE581 /* CaipiaoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaipiaoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BE360A4200C4B6300ACE581 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8BE360A5200C4B6300ACE581 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -91,6 +150,9 @@
 		8BE9643520206176005DB4DC /* CALayer+BorderColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+BorderColors.h"; sourceTree = "<group>"; };
 		8BE9643620206176005DB4DC /* CALayer+BorderColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+BorderColors.m"; sourceTree = "<group>"; };
 		8BE9643820206E5F005DB4DC /* pastnumber.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = pastnumber.plist; sourceTree = "<group>"; };
+		8BE9643B202078BB005DB4DC /* PastTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PastTableViewCell.h; sourceTree = "<group>"; };
+		8BE9643C202078BB005DB4DC /* PastTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PastTableViewCell.m; sourceTree = "<group>"; };
+		8BE9643D202078BB005DB4DC /* PastTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PastTableViewCell.xib; sourceTree = "<group>"; };
 		C2FF16231F61A30BC0158180 /* libPods-CaipiaoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CaipiaoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E36D3C1B1A221FBC92A4E5F0 /* Pods-CaipiaoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaipiaoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaipiaoApp/Pods-CaipiaoApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -165,6 +227,7 @@
 				8BE9643520206176005DB4DC /* CALayer+BorderColors.h */,
 				8BE9643620206176005DB4DC /* CALayer+BorderColors.m */,
 				8BE9643820206E5F005DB4DC /* pastnumber.plist */,
+				8BE9643A20207897005DB4DC /* Views */,
 				8BE96406202020C4005DB4DC /* images */,
 				8BE963F420200A88005DB4DC /* MainTabBarViewController.h */,
 				8BE963F520200A88005DB4DC /* MainTabBarViewController.m */,
@@ -180,6 +243,12 @@
 				8BE9640120200AE1005DB4DC /* SettingViewController.h */,
 				8BE9640220200AE1005DB4DC /* SettingViewController.m */,
 				8BE9640320200AE1005DB4DC /* SettingViewController.xib */,
+				8B86F2F42021A1DA006AB7E2 /* SettingDetaiViewController.h */,
+				8B86F2F52021A1DA006AB7E2 /* SettingDetaiViewController.m */,
+				8B86F2F62021A1DA006AB7E2 /* SettingDetaiViewController.xib */,
+				8B86F2F92021A738006AB7E2 /* MyLoveViewController.h */,
+				8B86F2FA2021A738006AB7E2 /* MyLoveViewController.m */,
+				8B86F2FB2021A738006AB7E2 /* MyLoveViewController.xib */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -187,6 +256,27 @@
 		8BE96406202020C4005DB4DC /* images */ = {
 			isa = PBXGroup;
 			children = (
+				8B86F2EF20219C45006AB7E2 /* rightArrow.png */,
+				8B86F2F020219C45006AB7E2 /* rightArrow@2x.png */,
+				8B86F2EE20219C45006AB7E2 /* rightArrow@3x.png */,
+				8B86F2C620219A8B006AB7E2 /* setting_myCollection.png */,
+				8B86F2C520219A8A006AB7E2 /* setting_myCollection@2x.png */,
+				8B86F2D620219A8C006AB7E2 /* setting_myCollection@3x.png */,
+				8B86F2C920219A8B006AB7E2 /* setting_myCourse.png */,
+				8B86F2D420219A8C006AB7E2 /* setting_myCourse@2x.png */,
+				8B86F2D320219A8C006AB7E2 /* setting_myCourse@3x.png */,
+				8B86F2CE20219A8B006AB7E2 /* setting_myMessage.png */,
+				8B86F2C820219A8B006AB7E2 /* setting_myMessage@2x.png */,
+				8B86F2D220219A8B006AB7E2 /* setting_myMessage@3x.png */,
+				8B86F2CA20219A8B006AB7E2 /* setting_myOrder.png */,
+				8B86F2D120219A8B006AB7E2 /* setting_myOrder@2x.png */,
+				8B86F2CD20219A8B006AB7E2 /* setting_myOrder@3x.png */,
+				8B86F2CF20219A8B006AB7E2 /* setting_mySetting.png */,
+				8B86F2D520219A8C006AB7E2 /* setting_mySetting@2x.png */,
+				8B86F2D020219A8B006AB7E2 /* setting_mySetting@3x.png */,
+				8B86F2C720219A8B006AB7E2 /* setting_wallet.png */,
+				8B86F2CC20219A8B006AB7E2 /* setting_wallet@2x.png */,
+				8B86F2CB20219A8B006AB7E2 /* setting_wallet@3x.png */,
 				8BE9640F202020E0005DB4DC /* tabbar_courseList_selected.png */,
 				8BE96418202020E0005DB4DC /* tabbar_courseList_selected@2x.png */,
 				8BE96412202020E0005DB4DC /* tabbar_courseList_selected@3x.png */,
@@ -207,6 +297,19 @@
 				8BE9640B202020E0005DB4DC /* tabbar_setting@3x.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		8BE9643A20207897005DB4DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8BE9643B202078BB005DB4DC /* PastTableViewCell.h */,
+				8BE9643C202078BB005DB4DC /* PastTableViewCell.m */,
+				8BE9643D202078BB005DB4DC /* PastTableViewCell.xib */,
+				8B86F2E920219C0B006AB7E2 /* SettingTableViewCell.h */,
+				8B86F2EA20219C0B006AB7E2 /* SettingTableViewCell.m */,
+				8B86F2EB20219C0B006AB7E2 /* SettingTableViewCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,22 +379,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BE96429202020E0005DB4DC /* tabbar_home@3x.png in Resources */,
+				8BE9643F202078BB005DB4DC /* PastTableViewCell.xib in Resources */,
 				8BE9641F202020E0005DB4DC /* tabbar_setting_selected@2x.png in Resources */,
+				8B86F2DD20219A8C006AB7E2 /* setting_wallet@3x.png in Resources */,
+				8B86F2E020219A8C006AB7E2 /* setting_myMessage.png in Resources */,
 				8BE96428202020E0005DB4DC /* tabbar_setting_selected@3x.png in Resources */,
+				8B86F2E620219A8C006AB7E2 /* setting_myCourse@2x.png in Resources */,
+				8B86F2F82021A1DA006AB7E2 /* SettingDetaiViewController.xib in Resources */,
 				8BE96421202020E0005DB4DC /* tabbar_courseList_selected.png in Resources */,
+				8B86F2DC20219A8C006AB7E2 /* setting_myOrder.png in Resources */,
+				8B86F2DF20219A8C006AB7E2 /* setting_myOrder@3x.png in Resources */,
+				8B86F2E520219A8C006AB7E2 /* setting_myCourse@3x.png in Resources */,
 				8BE360AE200C4B6300ACE581 /* Assets.xcassets in Resources */,
+				8B86F2E720219A8C006AB7E2 /* setting_mySetting@2x.png in Resources */,
+				8B86F2D820219A8C006AB7E2 /* setting_myCollection.png in Resources */,
+				8B86F2E220219A8C006AB7E2 /* setting_mySetting@3x.png in Resources */,
 				8BE96424202020E0005DB4DC /* tabbar_courseList_selected@3x.png in Resources */,
 				8BE96426202020E0005DB4DC /* tabbar_home_selected@3x.png in Resources */,
+				8B86F2E420219A8C006AB7E2 /* setting_myMessage@3x.png in Resources */,
+				8B86F2DA20219A8C006AB7E2 /* setting_myMessage@2x.png in Resources */,
 				8BE96419202020E0005DB4DC /* tabbar_setting_selected.png in Resources */,
+				8B86F2E820219A8C006AB7E2 /* setting_myCollection@3x.png in Resources */,
 				8BE9640520200AE1005DB4DC /* SettingViewController.xib in Resources */,
 				8BE9641A202020E0005DB4DC /* tabbar_home_selected@2x.png in Resources */,
+				8B86F2F320219C45006AB7E2 /* rightArrow@2x.png in Resources */,
+				8B86F2F220219C45006AB7E2 /* rightArrow.png in Resources */,
+				8B86F2ED20219C0B006AB7E2 /* SettingTableViewCell.xib in Resources */,
+				8B86F2F120219C45006AB7E2 /* rightArrow@3x.png in Resources */,
+				8B86F2E320219A8C006AB7E2 /* setting_myOrder@2x.png in Resources */,
 				8BE96420202020E0005DB4DC /* tabbar_setting@2x.png in Resources */,
 				8BE964312020293C005DB4DC /* RandomView.xib in Resources */,
 				8BE360AC200C4B6300ACE581 /* Main.storyboard in Resources */,
 				8BE9643920206E5F005DB4DC /* pastnumber.plist in Resources */,
 				8BE9640020200AD5005DB4DC /* PastViewController.xib in Resources */,
 				8BE96422202020E0005DB4DC /* tabbar_home_selected.png in Resources */,
+				8B86F2D720219A8C006AB7E2 /* setting_myCollection@2x.png in Resources */,
+				8B86F2DE20219A8C006AB7E2 /* setting_wallet@2x.png in Resources */,
 				8BE9641E202020E0005DB4DC /* tabbar_setting.png in Resources */,
+				8B86F2DB20219A8C006AB7E2 /* setting_myCourse.png in Resources */,
 				8BE96425202020E0005DB4DC /* tabbar_courseList.png in Resources */,
 				8BE9641B202020E0005DB4DC /* tabbar_courseList@3x.png in Resources */,
 				8BE9641C202020E0005DB4DC /* tabbar_home.png in Resources */,
@@ -299,7 +424,10 @@
 				8BE9641D202020E0005DB4DC /* tabbar_setting@3x.png in Resources */,
 				8BE963FB20200AA6005DB4DC /* HomeViewController.xib in Resources */,
 				8BE96427202020E0005DB4DC /* tabbar_home@2x.png in Resources */,
+				8B86F2E120219A8C006AB7E2 /* setting_mySetting.png in Resources */,
 				8BE9642A202020E0005DB4DC /* tabbar_courseList_selected@2x.png in Resources */,
+				8B86F2FD2021A738006AB7E2 /* MyLoveViewController.xib in Resources */,
+				8B86F2D920219A8C006AB7E2 /* setting_wallet.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,10 +490,14 @@
 				8BE963F620200A88005DB4DC /* MainTabBarViewController.m in Sources */,
 				8BE963FF20200AD5005DB4DC /* PastViewController.m in Sources */,
 				8BE9642D2020291D005DB4DC /* RandomView.m in Sources */,
+				8B86F2FC2021A738006AB7E2 /* MyLoveViewController.m in Sources */,
 				8BE9640420200AE1005DB4DC /* SettingViewController.m in Sources */,
+				8BE9643E202078BB005DB4DC /* PastTableViewCell.m in Sources */,
 				8BE360B4200C4B6300ACE581 /* main.m in Sources */,
+				8B86F2F72021A1DA006AB7E2 /* SettingDetaiViewController.m in Sources */,
 				8BE963FA20200AA6005DB4DC /* HomeViewController.m in Sources */,
 				8BE9643720206176005DB4DC /* CALayer+BorderColors.m in Sources */,
+				8B86F2EC20219C0B006AB7E2 /* SettingTableViewCell.m in Sources */,
 				8BE360A6200C4B6300ACE581 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

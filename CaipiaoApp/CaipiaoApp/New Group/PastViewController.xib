@@ -22,13 +22,13 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="wwB-3t-zoj">
-                    <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                    <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </tableView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="wwB-3t-zoj" secondAttribute="bottom" constant="49" id="0Zv-33-2cv"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="wwB-3t-zoj" secondAttribute="bottom" id="0Zv-33-2cv"/>
                 <constraint firstItem="wwB-3t-zoj" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="QLB-rw-SmO"/>
                 <constraint firstItem="wwB-3t-zoj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="iGc-bU-8pY"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="wwB-3t-zoj" secondAttribute="trailing" id="u1V-la-Hgm"/>
