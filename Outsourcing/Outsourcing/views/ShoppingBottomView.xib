@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ShoppingBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sxe-gJ-4l0">
+                    <rect key="frame" x="20" y="22.5" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="Ihg-Xd-BSC"/>
+                        <constraint firstAttribute="height" constant="20" id="TLn-wd-7nS"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="icon_unchecked_checkbox.png"/>
+                    <state key="selected" image="icon_unchecked_checkbox.png" backgroundImage="icon_checked_checkbox.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qbE-wu-pUG">
+                    <rect key="frame" x="275" y="0.0" width="100" height="65"/>
+                    <color key="backgroundColor" red="0.98039215686274506" green="0.40000000000000002" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="Mml-0z-iLX"/>
+                    </constraints>
+                    <state key="normal" title="去结算">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="合计:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b2U-yY-qvd">
+                    <rect key="frame" x="151" y="22" width="39.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥20.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qYQ-Ms-Mun">
+                    <rect key="frame" x="193.5" y="22" width="61.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.98039215686274506" green="0.40000000000000002" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="全选" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PGY-nu-f2M">
+                    <rect key="frame" x="45" y="23.5" width="31" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="sxe-gJ-4l0" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="2BA-Rz-VGZ"/>
+                <constraint firstItem="qYQ-Ms-Mun" firstAttribute="leading" secondItem="b2U-yY-qvd" secondAttribute="trailing" constant="3" id="5Ii-wZ-5gp"/>
+                <constraint firstItem="qbE-wu-pUG" firstAttribute="leading" secondItem="qYQ-Ms-Mun" secondAttribute="trailing" constant="20" id="Es6-7p-YaS"/>
+                <constraint firstItem="qbE-wu-pUG" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="Ffd-gw-a3T"/>
+                <constraint firstItem="b2U-yY-qvd" firstAttribute="centerY" secondItem="PGY-nu-f2M" secondAttribute="centerY" id="Ggw-1T-f55"/>
+                <constraint firstItem="PGY-nu-f2M" firstAttribute="centerY" secondItem="sxe-gJ-4l0" secondAttribute="centerY" id="Pw8-vy-q0L"/>
+                <constraint firstItem="qYQ-Ms-Mun" firstAttribute="centerY" secondItem="b2U-yY-qvd" secondAttribute="centerY" id="Rnj-1P-2mV"/>
+                <constraint firstItem="qbE-wu-pUG" firstAttribute="centerY" secondItem="sxe-gJ-4l0" secondAttribute="centerY" id="Vjo-hx-YeO"/>
+                <constraint firstItem="sxe-gJ-4l0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="bwY-mI-OYw"/>
+                <constraint firstAttribute="trailing" secondItem="qbE-wu-pUG" secondAttribute="trailing" id="tix-GQ-fYn"/>
+                <constraint firstItem="PGY-nu-f2M" firstAttribute="leading" secondItem="sxe-gJ-4l0" secondAttribute="trailing" constant="5" id="wWC-bN-M9X"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="allSelectButton" destination="sxe-gJ-4l0" id="9Co-mE-BLq"/>
+                <outlet property="submitButton" destination="qbE-wu-pUG" id="LUx-Yv-KMo"/>
+                <outlet property="totalPrice" destination="qYQ-Ms-Mun" id="9QJ-Ky-reu"/>
+            </connections>
+            <point key="canvasLocation" x="25.5" y="-248.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_checked_checkbox.png" width="512" height="512"/>
+        <image name="icon_unchecked_checkbox.png" width="512" height="512"/>
+    </resources>
+</document>

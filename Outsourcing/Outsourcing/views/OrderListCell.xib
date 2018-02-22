@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="167" id="KGk-i7-Jjw" customClass="OrderListCell">
+            <rect key="frame" x="0.0" y="0.0" width="413" height="167"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="413" height="166.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KiB-OQ-47Y">
+                        <rect key="frame" x="176.5" y="10" width="37.5" height="17"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VEx-x0-mVB">
+                        <rect key="frame" x="365.5" y="10" width="37.5" height="17"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tmj-29-K9g">
+                        <rect key="frame" x="372" y="29.5" width="31" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.5607843137254902" green="0.56470588235294117" blue="0.58431372549019611" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zKv-Rm-8BY">
+                        <rect key="frame" x="20" y="10" width="146.5" height="146.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="zKv-Rm-8BY" secondAttribute="height" multiplier="1:1" id="yoN-Cw-RwG"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="tmj-29-K9g" firstAttribute="top" secondItem="VEx-x0-mVB" secondAttribute="bottom" constant="3" id="3PD-iL-Nad"/>
+                    <constraint firstItem="zKv-Rm-8BY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="APv-a1-dgA"/>
+                    <constraint firstItem="VEx-x0-mVB" firstAttribute="centerY" secondItem="KiB-OQ-47Y" secondAttribute="centerY" id="Aru-Kx-IVy"/>
+                    <constraint firstItem="zKv-Rm-8BY" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Hhr-AI-4ez"/>
+                    <constraint firstItem="zKv-Rm-8BY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="LLx-cO-HIw"/>
+                    <constraint firstItem="KiB-OQ-47Y" firstAttribute="leading" secondItem="zKv-Rm-8BY" secondAttribute="trailing" constant="10" id="Nl1-6Z-CKN"/>
+                    <constraint firstAttribute="trailing" secondItem="VEx-x0-mVB" secondAttribute="trailing" constant="10" id="fx0-D6-a6p"/>
+                    <constraint firstAttribute="trailing" secondItem="tmj-29-K9g" secondAttribute="trailing" constant="10" id="vTU-HR-fHI"/>
+                    <constraint firstItem="KiB-OQ-47Y" firstAttribute="top" secondItem="zKv-Rm-8BY" secondAttribute="top" id="zmS-tZ-Jge"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="pIcon" destination="zKv-Rm-8BY" id="muI-KH-dLp"/>
+                <outlet property="pName" destination="KiB-OQ-47Y" id="kXa-jf-HrY"/>
+                <outlet property="pNum" destination="tmj-29-K9g" id="tcY-aG-Yh1"/>
+                <outlet property="pPrice" destination="VEx-x0-mVB" id="SMF-a6-Fn3"/>
+            </connections>
+            <point key="canvasLocation" x="36" y="-99"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="2.jpg" width="160" height="160"/>
+    </resources>
+</document>

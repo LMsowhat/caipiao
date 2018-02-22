@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="127" id="KGk-i7-Jjw" customClass="ShoppingChartCell">
+            <rect key="frame" x="0.0" y="0.0" width="413" height="127"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="413" height="126.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="07F-Kt-Z2Y">
+                        <rect key="frame" x="10" y="54.5" width="18" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="18" id="ghh-Sb-40w"/>
+                            <constraint firstAttribute="height" constant="18" id="pFX-fr-GO2"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="icon_unchecked_checkbox.png"/>
+                        <state key="selected" image="icon_checked_checkbox.png"/>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="g5Q-m3-Z78">
+                        <rect key="frame" x="38" y="33" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="ADr-Xe-4tM"/>
+                            <constraint firstAttribute="width" constant="60" id="Jhi-ub-CzQ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="矿泉水" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qaA-Mc-jEM">
+                        <rect key="frame" x="108" y="33" width="43" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="19L/桶" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7a-5N-R8g">
+                        <rect key="frame" x="108" y="56.5" width="36.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.5607843137254902" green="0.56470588235294117" blue="0.58431372549019611" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥20.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOB-Pi-3mV">
+                        <rect key="frame" x="108" y="76" width="52" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.98039215686274506" green="0.40000000000000002" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calculate.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xda-2r-JOX">
+                        <rect key="frame" x="273" y="51" width="80" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="KsJ-Dw-BeE"/>
+                            <constraint firstAttribute="height" constant="25" id="mbq-7e-8Pf"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UDQ-DS-WJo">
+                        <rect key="frame" x="306.5" y="55.5" width="14" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uZC-XA-u3F">
+                        <rect key="frame" x="273" y="51" width="40" height="25"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njG-ck-jNk">
+                        <rect key="frame" x="313" y="50.5" width="40" height="25.5"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gJC-H2-Feo">
+                        <rect key="frame" x="358" y="38.5" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="2JJ-wa-2r3"/>
+                            <constraint firstAttribute="width" constant="50" id="OBa-tl-qI0"/>
+                        </constraints>
+                        <state key="normal" image="icon_deleteChart.png"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="uZC-XA-u3F" firstAttribute="top" secondItem="Xda-2r-JOX" secondAttribute="top" id="09i-J3-cqz"/>
+                    <constraint firstItem="s7a-5N-R8g" firstAttribute="leading" secondItem="g5Q-m3-Z78" secondAttribute="trailing" constant="10" id="1aT-Qp-bbW"/>
+                    <constraint firstItem="njG-ck-jNk" firstAttribute="trailing" secondItem="Xda-2r-JOX" secondAttribute="trailing" id="7Re-HI-DX2"/>
+                    <constraint firstItem="Xda-2r-JOX" firstAttribute="centerY" secondItem="g5Q-m3-Z78" secondAttribute="centerY" id="EKa-Iu-vTy"/>
+                    <constraint firstItem="uZC-XA-u3F" firstAttribute="width" secondItem="Xda-2r-JOX" secondAttribute="width" multiplier="0.5" id="Fdr-iH-lTC"/>
+                    <constraint firstItem="g5Q-m3-Z78" firstAttribute="centerY" secondItem="07F-Kt-Z2Y" secondAttribute="centerY" id="Fmn-P6-uxO"/>
+                    <constraint firstItem="qaA-Mc-jEM" firstAttribute="leading" secondItem="g5Q-m3-Z78" secondAttribute="trailing" constant="10" id="GkB-HA-LQw"/>
+                    <constraint firstItem="UDQ-DS-WJo" firstAttribute="centerY" secondItem="Xda-2r-JOX" secondAttribute="centerY" id="Il6-gZ-Vjp"/>
+                    <constraint firstItem="07F-Kt-Z2Y" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="KKV-RF-Zgx"/>
+                    <constraint firstItem="njG-ck-jNk" firstAttribute="width" secondItem="Xda-2r-JOX" secondAttribute="width" multiplier="0.5" id="OtZ-Te-WWI"/>
+                    <constraint firstItem="s7a-5N-R8g" firstAttribute="centerY" secondItem="g5Q-m3-Z78" secondAttribute="centerY" id="XtC-Ko-RO9"/>
+                    <constraint firstAttribute="trailing" secondItem="gJC-H2-Feo" secondAttribute="trailing" constant="5" id="Yq3-sO-xke"/>
+                    <constraint firstItem="vOB-Pi-3mV" firstAttribute="leading" secondItem="g5Q-m3-Z78" secondAttribute="trailing" constant="10" id="bY4-FU-J5U"/>
+                    <constraint firstItem="gJC-H2-Feo" firstAttribute="centerY" secondItem="07F-Kt-Z2Y" secondAttribute="centerY" id="cKA-zk-V4o"/>
+                    <constraint firstItem="uZC-XA-u3F" firstAttribute="leading" secondItem="Xda-2r-JOX" secondAttribute="leading" id="eDe-m2-0zr"/>
+                    <constraint firstItem="vOB-Pi-3mV" firstAttribute="bottom" secondItem="g5Q-m3-Z78" secondAttribute="bottom" id="eFT-O1-tbZ"/>
+                    <constraint firstItem="gJC-H2-Feo" firstAttribute="leading" secondItem="Xda-2r-JOX" secondAttribute="trailing" constant="5" id="ggV-U3-muB"/>
+                    <constraint firstItem="g5Q-m3-Z78" firstAttribute="leading" secondItem="07F-Kt-Z2Y" secondAttribute="trailing" constant="10" id="iLj-Hg-ABb"/>
+                    <constraint firstItem="07F-Kt-Z2Y" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="jL5-lW-VkP"/>
+                    <constraint firstItem="uZC-XA-u3F" firstAttribute="bottom" secondItem="Xda-2r-JOX" secondAttribute="bottom" id="oB4-hi-z7x"/>
+                    <constraint firstItem="njG-ck-jNk" firstAttribute="top" secondItem="Xda-2r-JOX" secondAttribute="top" id="pWq-XB-RwH"/>
+                    <constraint firstItem="UDQ-DS-WJo" firstAttribute="centerX" secondItem="Xda-2r-JOX" secondAttribute="centerX" id="sFH-f9-2iS"/>
+                    <constraint firstItem="qaA-Mc-jEM" firstAttribute="top" secondItem="g5Q-m3-Z78" secondAttribute="top" id="tE8-2r-Rku"/>
+                    <constraint firstItem="njG-ck-jNk" firstAttribute="bottom" secondItem="Xda-2r-JOX" secondAttribute="bottom" id="yXt-R3-xoM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addButton" destination="njG-ck-jNk" id="23m-TN-pVY"/>
+                <outlet property="deleteButton" destination="gJC-H2-Feo" id="XAg-p4-90i"/>
+                <outlet property="pIcon" destination="g5Q-m3-Z78" id="XfM-bb-SI8"/>
+                <outlet property="pName" destination="qaA-Mc-jEM" id="K9W-1f-fG9"/>
+                <outlet property="pNum" destination="UDQ-DS-WJo" id="Tzu-bx-a7y"/>
+                <outlet property="pPrice" destination="vOB-Pi-3mV" id="CzR-dt-LER"/>
+                <outlet property="pSales" destination="s7a-5N-R8g" id="ulW-Yv-e13"/>
+                <outlet property="selectButton" destination="07F-Kt-Z2Y" id="Ykg-bK-ie8"/>
+                <outlet property="substractButton" destination="uZC-XA-u3F" id="toe-yE-bpR"/>
+            </connections>
+            <point key="canvasLocation" x="-58.5" y="-65.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="calculate.png" width="90" height="28"/>
+        <image name="icon_checked_checkbox.png" width="512" height="512"/>
+        <image name="icon_deleteChart.png" width="512" height="512"/>
+        <image name="icon_unchecked_checkbox.png" width="512" height="512"/>
+    </resources>
+</document>

@@ -1,0 +1,21 @@
+platform :ios, '7.0'
+
+target 'Outsourcing'do
+
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'SDCycleScrollView'
+pod 'Reachability'
+
+pod 'Masonry'
+pod 'MJExtension'
+pod 'MJRefresh'
+
+pod 'MBProgressHUD'
+pod 'WechatOpenSDK'
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/aliyun/aliyun-specs.git'
+pod 'AlicloudPush', '~> 1.9.2'
+
+end

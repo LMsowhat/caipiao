@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="uVG-XL-uhD" customClass="WechatShareView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iN0-l3-epB">
+                    <rect key="frame" x="-0.5" y="557" width="375" height="110"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="分享到" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="giw-kH-CIg">
+                            <rect key="frame" x="161.5" y="0.0" width="52" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.5607843137254902" green="0.56470588235294117" blue="0.58431372549019611" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nde-aI-nhS">
+                            <rect key="frame" x="0.0" y="31" width="375" height="1"/>
+                            <color key="backgroundColor" red="0.8666666666666667" green="0.8666666666666667" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="hew-aQ-dxI"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A3k-xp-2hQ">
+                            <rect key="frame" x="74" y="42" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="SIg-mG-vD3"/>
+                                <constraint firstAttribute="height" constant="40" id="dU2-Cl-n1W"/>
+                            </constraints>
+                            <state key="normal" image="icon_wechat_friends.png"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGm-rl-RbR">
+                            <rect key="frame" x="261.5" y="42" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="53B-sy-by1"/>
+                                <constraint firstAttribute="width" constant="40" id="Oq8-MD-b3G"/>
+                            </constraints>
+                            <state key="normal" image="icon_wechat_moments.png"/>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="微信" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQ2-DS-NHD">
+                            <rect key="frame" x="81.5" y="84" width="25" height="14.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="微信朋友圈" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pim-zN-9Q2">
+                            <rect key="frame" x="251" y="84" width="61.5" height="14.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="giw-kH-CIg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="25V-xO-5LW"/>
+                        <constraint firstItem="Pim-zN-9Q2" firstAttribute="top" secondItem="nGm-rl-RbR" secondAttribute="bottom" constant="2" id="H6n-wo-7Pz"/>
+                        <constraint firstItem="BQ2-DS-NHD" firstAttribute="top" secondItem="A3k-xp-2hQ" secondAttribute="bottom" constant="2" id="IIq-H3-zXe"/>
+                        <constraint firstItem="nGm-rl-RbR" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" multiplier="1.5" id="LEz-SF-UEH"/>
+                        <constraint firstItem="Pim-zN-9Q2" firstAttribute="centerX" secondItem="nGm-rl-RbR" secondAttribute="centerX" id="OWk-pA-wdd"/>
+                        <constraint firstItem="nde-aI-nhS" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="PkD-Ql-ugj"/>
+                        <constraint firstItem="nde-aI-nhS" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="ZSi-RQ-4k9"/>
+                        <constraint firstItem="A3k-xp-2hQ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" multiplier="0.5" id="Zlj-EA-1qJ"/>
+                        <constraint firstItem="A3k-xp-2hQ" firstAttribute="top" secondItem="nde-aI-nhS" secondAttribute="bottom" constant="10" id="bvF-dt-nIo"/>
+                        <constraint firstItem="nde-aI-nhS" firstAttribute="top" secondItem="giw-kH-CIg" secondAttribute="bottom" constant="10" id="bwl-PJ-EuL"/>
+                        <constraint firstItem="giw-kH-CIg" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="gYv-Vi-YJY"/>
+                        <constraint firstItem="nGm-rl-RbR" firstAttribute="top" secondItem="nde-aI-nhS" secondAttribute="bottom" constant="10" id="teu-Di-tYK"/>
+                        <constraint firstItem="BQ2-DS-NHD" firstAttribute="centerX" secondItem="A3k-xp-2hQ" secondAttribute="centerX" id="wHS-Tu-UeT"/>
+                        <constraint firstAttribute="height" constant="110" id="wPA-RQ-UQY"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="iN0-l3-epB" firstAttribute="centerX" secondItem="uVG-XL-uhD" secondAttribute="centerX" id="4Zp-1r-F71"/>
+                <constraint firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="GHw-cL-bAa"/>
+                <constraint firstItem="iN0-l3-epB" firstAttribute="width" secondItem="uVG-XL-uhD" secondAttribute="width" id="Or5-4h-Lo0"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="friendsButton" destination="A3k-xp-2hQ" id="OtR-xr-mxG"/>
+                <outlet property="momentsButton" destination="nGm-rl-RbR" id="Otc-BI-88U"/>
+            </connections>
+            <point key="canvasLocation" x="271" y="223"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_wechat_friends.png" width="64" height="64"/>
+        <image name="icon_wechat_moments.png" width="600" height="600"/>
+    </resources>
+</document>
